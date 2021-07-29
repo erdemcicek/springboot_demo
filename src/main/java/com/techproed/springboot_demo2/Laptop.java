@@ -10,16 +10,20 @@ public class Laptop implements BatteryI {
 	@Autowired
 	private BatteryA bA;
 	
+	
 	Laptop(){
 		System.out.println("Laptop is created...");
 	}
+	
 	
 	public void use() {
 		bA.use();
 	}
 	
+	
 	public void turnOnLaptop() {
 		System.out.println("Laptop is turned on...");
 	}
 
+	
 }
