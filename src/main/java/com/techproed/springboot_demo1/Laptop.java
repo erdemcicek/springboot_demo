@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  */
 
 @Component
-//@Scope("prototype")  // This stops using "Singleton Design Pattern", it means object will be
+@Scope("prototype")  // This stops using "Singleton Design Pattern", it means object will be
 public class Laptop { // created in every getBean() usage
 
 	
@@ -53,7 +53,5 @@ public class Laptop { // created in every getBean() usage
 		bS.use();
 		System.out.println("Laptop is turned on...");
 	}
-	
-	
 	
 }

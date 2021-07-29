@@ -14,6 +14,7 @@ public class SpringbootDemoApplication {
 		Laptop l1 = con.getBean(Laptop.class);
 		BatteryA bA = con.getBean(BatteryA.class);
 		l1.use(bA);
+		l1.use();
 		
 		Laptop l2 = con.getBean(Laptop.class);
 		BatteryB bB = con.getBean(BatteryB.class);

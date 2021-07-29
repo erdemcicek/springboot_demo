@@ -1,8 +1,10 @@
 package com.techproed.springboot_demo1;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component("bS")
+@Scope("prototype")
 public class BatteryS {
 	
 	private String name;
