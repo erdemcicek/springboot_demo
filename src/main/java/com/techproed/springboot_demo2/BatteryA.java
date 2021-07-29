@@ -11,9 +11,11 @@ public class BatteryA implements BatteryI {
 		System.out.println("BatteryA is created...");
 	}
 	
+	
 	@Override
 	public void use() {
 		System.out.println("BatteryA is used...");
 	}
 
+	
 }
